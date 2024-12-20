@@ -1,15 +1,12 @@
 h1 {
     text-align: center;
 }
-h2 {
-    text-align: center;
-}
 #title {
-    color: aquamarine;
+    background-color: aquamarine;
 }
 #content {
-    color: aquamarine;
+    background-color: aquamarine;
 }
 #footer {
-    color: aquamarine;
+    background-color: aquamarine;
 }
