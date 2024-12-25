@@ -4,12 +4,15 @@ h1 {
 #title {
     background-color: aquamarine;
     padding: 5px;
+    margin: 20px;
 }
 #content {
     background-color: aquamarine;
     padding: 5px;
+    margin: 20px;
 }
 #footer {
     background-color: aquamarine;
     padding: 5px;
+    margin: 20px;
 }
