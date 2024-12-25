@@ -3,10 +3,13 @@ h1 {
 }
 #title {
     background-color: aquamarine;
+    padding: 5px;
 }
 #content {
     background-color: aquamarine;
+    padding: 5px;
 }
 #footer {
     background-color: aquamarine;
+    padding: 5px;
 }
