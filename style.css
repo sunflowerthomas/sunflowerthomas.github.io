@@ -2,17 +2,25 @@ h1 {
     text-align: center;
 }
 #title {
-    background-color: aquamarine;
+    background-color: rgb(34, 102, 78);
     padding: 5px;
+    border-radius: 7px;
     margin: 20px;
 }
 #content {
-    background-color: aquamarine;
+    background-color: rgb(34, 102, 78);
     padding: 5px;
+    border-radius: 7px;
     margin: 20px;
 }
 #footer {
-    background-color: aquamarine;
+    background-color: rgb(34, 102, 78);
+    border-radius: 7px;
     padding: 5px;
     margin: 20px;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
 }
