@@ -1,16 +1,28 @@
 h1 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    background-color: #121212;
     text-align: center;
+    color: white;
+    width: 1020px;
 }
+
 #title {
     background-color: rgb(34, 102, 78);
     padding: 5px;
     border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
     margin: 20px;
 }
 #content {
     background-color: rgb(34, 102, 78);
     padding: 5px;
     border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
     margin: 20px;
 }
 #footer {
@@ -23,4 +35,8 @@ h1 {
 body {
     background-color: rgb(37, 37, 37);
     color: white;
+}
+
+a {
+  color: coral;
 }
