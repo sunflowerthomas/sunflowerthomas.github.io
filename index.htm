@@ -2,6 +2,24 @@
 
 <html>
 <head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+
+  // Must run before Google Analytics loads
+  gtag("consent", "default", {
+    analytics_storage: "denied",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    wait_for_update: 500
+  });
+
+  gtag("js", new Date());
+  gtag("config", "G-XXXXXXXXXX", {
+    anonymize_ip: true
+  });
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TYGBQ1X7D"></script>
 <script>
@@ -16,6 +34,11 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="title">
+      <h1>Cookies</h1><br>
+      <p>We use Google Analytics to collect data about visitors.<br>By accepting, you allow Google to collect data about you.</p>
+      <button type="button">Accept</button>
+    </div>
 <!--  <div id="title">
     <h1>This website is currently being redesigned</h1><br>
     <p>You will soon be able to access the new website on <a href="https://www.sunflowerthomas.xyz">www.sunflowerthomas.xyz</a>.</p>
